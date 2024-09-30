@@ -1,0 +1,6 @@
+.idea/
+docs/
+*.pem
+*.db
+*.exe
+*.env

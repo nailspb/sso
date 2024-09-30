@@ -1,0 +1,23 @@
+[
+    {
+        "create": "Users"
+    },
+    {
+        "createIndexes": "Users",
+        "indexes": [
+            {
+                "key": {
+                    "login": 1
+                },
+                "name": "unique_login",
+                "unique": true
+            }
+        ]
+    },
+    {
+        "create": "Keys"
+    },
+    {
+        "create": "Tokens"
+    }
+]

@@ -1,0 +1,10 @@
+env: "dev" #local, dev, prod
+server:
+  address: ":80"
+init:
+  password: "adminpassword"
+sqlite:
+  path: "./database.db"
+rsa:
+  folder: "./keys/rsa"
+
